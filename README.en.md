@@ -81,7 +81,7 @@ $\int S\,df = \mathrm{var}(B)$ (verified to **1.000**). The **CWT** follows
 *Torrence & Compo (1998)*: complex Morlet wavelet
 $\psi_0(\eta)=\pi^{-1/4}e^{i\omega_0\eta}e^{-\eta^2/2}$ ($\omega_0=6$), dyadic
 scales $s_j=s_0\,2^{j\,\delta j}$, cone of influence $\tau_s=\sqrt{2}\,s$, and the
-time–frequency PSD $S(f,t)=2\,\delta t\,\operatorname{Tr}\{S_{ij}\}$ with
+time–frequency PSD $S(f,t)=2\,\delta t\,\mathrm{Tr}\{S_{ij}\}$ with
 $S_{ij}=W_i W_j^{\ast}$. **MVA** diagonalizes the variance matrix
 $M_{ij}=\langle B_iB_j\rangle-\langle B_i\rangle\langle B_j\rangle$; the eigenvalue
 ratios $\lambda_1/\lambda_2$ (linear↔circular) and $\lambda_2/\lambda_3$ (quality

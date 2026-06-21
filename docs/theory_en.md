@@ -146,7 +146,7 @@ because the low-frequency power there is unreliable. The physically normalized
 time–frequency PSD is
 
 ```math
-S(s,t) = 2\,\delta t\,\operatorname{Tr}\{S_{ij}(f,t)\}
+S(s,t) = 2\,\delta t\,\mathrm{Tr}\{S_{ij}(f,t)\}
        = 2\,\delta t\,\big(|W_x|^2 + |W_y|^2 + |W_z|^2\big)\quad [\mathrm{nT^2/Hz}],
 ```
 
@@ -199,10 +199,10 @@ $S_{ij}(f) = \langle B_i(f)\,B_j^{\ast}(f)\rangle$ (here built from the CWT). Fr
 one obtains, per frequency, the **degree of polarization**
 
 ```math
-\mathrm{DOP} = \sqrt{\frac{3\,\operatorname{Tr}S^2 - (\operatorname{Tr}S)^2}{2\,(\operatorname{Tr}S)^2}},
+\mathrm{DOP} = \sqrt{\frac{3\,\mathrm{Tr}S^2 - (\mathrm{Tr}S)^2}{2\,(\mathrm{Tr}S)^2}},
 ```
 
-the **ellipticity** $2\,|\mathrm{Im}\,S|_{\mathrm{off}}/\operatorname{Tr}S$
+the **ellipticity** $2\,|\mathrm{Im}\,S|_{\mathrm{off}}/\mathrm{Tr}S$
 (0 = linear, 1 = circular; both rotational invariants, hence frame-independent),
 and — via the imaginary (antisymmetric) part of $S$, Means (1972) — the
 **wave-normal direction**.

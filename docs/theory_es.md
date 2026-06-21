@@ -156,7 +156,7 @@ se **enmascara** porque la potencia de baja frecuencia allí no es confiable. La
 DEP tiempo–frecuencia normalizada físicamente es
 
 ```math
-S(s,t) = 2\,\delta t\,\operatorname{Tr}\{S_{ij}(f,t)\}
+S(s,t) = 2\,\delta t\,\mathrm{Tr}\{S_{ij}(f,t)\}
        = 2\,\delta t\,\big(|W_x|^2 + |W_y|^2 + |W_z|^2\big)\quad [\mathrm{nT^2/Hz}],
 ```
 
@@ -211,10 +211,10 @@ $S_{ij}(f) = \langle B_i(f)\,B_j^{\ast}(f)\rangle$ (aquí construida desde la CW
 ella se obtiene, por frecuencia, el **grado de polarización**
 
 ```math
-\mathrm{DOP} = \sqrt{\frac{3\,\operatorname{Tr}S^2 - (\operatorname{Tr}S)^2}{2\,(\operatorname{Tr}S)^2}},
+\mathrm{DOP} = \sqrt{\frac{3\,\mathrm{Tr}S^2 - (\mathrm{Tr}S)^2}{2\,(\mathrm{Tr}S)^2}},
 ```
 
-la **elipticidad** $2\,|\mathrm{Im}\,S|_{\mathrm{off}}/\operatorname{Tr}S$
+la **elipticidad** $2\,|\mathrm{Im}\,S|_{\mathrm{off}}/\mathrm{Tr}S$
 (0 = lineal, 1 = circular; ambos invariantes rotacionales y por tanto
 independientes del marco) y — vía la parte imaginaria (antisimétrica) de $S$,
 Means (1972) — la **dirección normal de la onda**.
