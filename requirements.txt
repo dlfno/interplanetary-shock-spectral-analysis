@@ -1,0 +1,10 @@
+# Core scientific stack
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+
+# Reading CDF files downloaded from NASA/GSFC CDAWeb
+cdflib>=1.3
+
+# Optional: run the test-suite
+# pytest>=7.0

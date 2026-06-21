@@ -1,0 +1,77 @@
+{
+  "event": {
+    "spacecraft": "Wind",
+    "dataset": "WI_H2_MFI",
+    "t0": "2022-08-19T16:51:00Z",
+    "theta_Bn_deg": 31.3,
+    "v_shock_kms": 683.4,
+    "mach_fast": 1.81,
+    "beta_up": 0.553,
+    "catalog_url": "https://lweb.cfa.harvard.edu/shocks/wi_data/00802/wi_00802.html",
+    "source": "wind",
+    "fs_hz": 10.869565217391305,
+    "n_samples": 22173
+  },
+  "intervals": {
+    "upstream": {
+      "window_min": [
+        -11.0,
+        -1.0
+      ],
+      "n": 6522,
+      "mean_Bmag_nT": 5.5150577299759025,
+      "var_total_nT2": 5.195553565020928,
+      "fft_parseval_ratio": 0.9999999708876819,
+      "cwt_recon_ratio": 0.9005542149674589,
+      "psd_peak_hz": 0.019999200031998718,
+      "mva": {
+        "lambda": [
+          0.8517360197584452,
+          0.6576545247343466,
+          0.1294774056161568
+        ],
+        "l1_l2": 1.2951116243022824,
+        "l2_l3": 5.0792995241501915,
+        "ellipticity": 0.8787116802639212,
+        "polarization": "circular",
+        "sense": "right-handed",
+        "theta_kB_deg": 10.75399993253997,
+        "normal": [
+          0.9637957717327477,
+          0.16025491091565974,
+          -0.2131104735049201
+        ]
+      }
+    },
+    "downstream": {
+      "window_min": [
+        1.0,
+        11.0
+      ],
+      "n": 6521,
+      "mean_Bmag_nT": 10.988217310735244,
+      "var_total_nT2": 20.10601502487767,
+      "fft_parseval_ratio": 0.9999999792135695,
+      "cwt_recon_ratio": 0.9000399402106594,
+      "psd_peak_hz": 0.009999600015999359,
+      "mva": {
+        "lambda": [
+          2.3913528423473065,
+          1.12468644393667,
+          0.42632806551072744
+        ],
+        "l1_l2": 2.126239589033369,
+        "l2_l3": 2.6380774218777536,
+        "ellipticity": 0.6857943454613341,
+        "polarization": "elliptical",
+        "sense": "right-handed",
+        "theta_kB_deg": 3.5081230710628075,
+        "normal": [
+          0.5705236127353479,
+          0.15467950203526165,
+          -0.806583572211541
+        ]
+      }
+    }
+  }
+}

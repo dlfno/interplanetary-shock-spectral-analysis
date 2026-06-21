@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+title: "Spectral Analysis of an Interplanetary Shock (FFT · CWT · MVA)"
+message: "If you use this software, please cite it and the underlying data providers."
+type: software
+authors:
+  - family-names: "Cervantes Flores"
+    given-names: "Alonso"
+abstract: >-
+  FFT and Morlet continuous-wavelet power spectral density, time-frequency
+  scalograms, and minimum variance analysis of NASA Wind/MFI high-resolution
+  magnetic-field data across a fast-forward interplanetary shock
+  (2022-08-19 16:51 UT). Coursework for "Space Science and Data Analysis —
+  Spectral Analysis", Instituto de Geofísica, UNAM.
+keywords:
+  - space physics
+  - collisionless shocks
+  - power spectral density
+  - continuous wavelet transform
+  - minimum variance analysis
+  - solar wind
+license: MIT
+references:
+  - type: article
+    authors:
+      - family-names: Torrence
+        given-names: Christopher
+      - family-names: Compo
+        given-names: "Gilbert P."
+    title: "A Practical Guide to Wavelet Analysis"
+    journal: "Bulletin of the American Meteorological Society"
+    volume: 79
+    issue: 1
+    year: 1998
+    start: 61
+    end: 78
+  - type: data
+    title: "Wind MFI high-resolution magnetic field (WI_H2_MFI)"
+    authors:
+      - name: "NASA/GSFC SPDF CDAWeb; Wind MFI team (Lepping et al. 1995)"
+    url: "https://cdaweb.gsfc.nasa.gov/"

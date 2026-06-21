@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Raw CDF downloads (re-downloaded on demand; the small .npz cache is committed)
+data/*.cdf
+data/_probe*
+
+# OS
+.DS_Store
+Thumbs.db
